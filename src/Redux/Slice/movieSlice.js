@@ -5,9 +5,9 @@ export const fetchMovies = createAsyncThunk(
   async (searchTerm, { rejectWithValue }) => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=f5587de9&s=${
-          searchTerm ? searchTerm : "hello"
-        }`
+        `${process.env.REACT_APP_API_URL}?apikey=${
+          process.env.REACT_APP_API_KEY
+        }&s=${searchTerm ? searchTerm : "hello"}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
