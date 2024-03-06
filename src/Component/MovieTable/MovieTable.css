@@ -1,0 +1,144 @@
+.search-box-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+}
+
+.search-heading {
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: -1px;
+  padding: 30px 0px 20px 20px;
+}
+
+.search-box-main-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 30px 0px;
+  border-radius: 5px;
+}
+
+.search-box {
+  position: relative;
+}
+.sort-container {
+  display: flex;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.table-main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: "20px";
+}
+
+.table-container {
+  width: 80%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.table-heading-main-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.table-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.table-heading {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.search-box input {
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  min-height: 30px;
+  min-width: 200px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button {
+  margin-left: 20px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #ef403d;
+  transition: background-color 0.3s;
+  min-width: 100px;
+  min-height: 40px;
+}
+
+.button:hover {
+  background-color: #e2e2e2;
+}
+
+.sort-button {
+  margin-left: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 20px;
+}
+
+.table th {
+  background-color: #293446;
+  height: 50px;
+  color: white;
+}
+
+.table img {
+  width: 50px;
+  height: auto;
+}
+
+.table tbody tr td {
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+.delete-button {
+  cursor: pointer;
+}
+.edit-button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
