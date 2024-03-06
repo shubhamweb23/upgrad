@@ -1,5 +1,5 @@
 import "./App.css";
-import MovieTable from "./Component/MovieTable/MovieTable";
+import MovieTable from "./Feature/MovieTable/MovieTable";
 
 function App() {
   return (
