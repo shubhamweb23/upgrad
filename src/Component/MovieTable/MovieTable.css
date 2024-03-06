@@ -148,3 +148,7 @@
   width: 30px;
   height: 30px;
 }
+.outer-box {
+  display: flex;
+  justify-content: center;
+}

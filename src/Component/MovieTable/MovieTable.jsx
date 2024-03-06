@@ -71,7 +71,7 @@ const MovieTable = () => {
 
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="outer-box">
         <div className="search-box-main-container">
           <div className="search-heading">filter list of the movie title</div>
           <div className="search-box-container">
