@@ -61,7 +61,13 @@
 
 .table-heading {
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+
+.table-listing-count {
+  padding-right: "10px";
+  font-size: 20px;
 }
 
 .search-box input {

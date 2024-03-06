@@ -7,7 +7,7 @@ export const fetchMovies = createAsyncThunk(
       const response = await fetch(
         `http://www.omdbapi.com/?apikey=f5587de9&s=${
           searchTerm ? searchTerm : "hello"
-        }&page=5`
+        }`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");

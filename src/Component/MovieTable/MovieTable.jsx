@@ -109,10 +109,10 @@ const MovieTable = () => {
           )}
           <div className="table-heading-main-container">
             <div className="table-heading-container">
-              <div className="table-heading">View movie list</div>
-              <div style={{ paddingRight: "10px", fontSize: "20px" }}>
-                showing {totalResults ? movie?.length : 0} of
-                {totalResults ? totalResults : 0}
+              <div className="table-heading">View the list of the Movie</div>
+              <div className="table-listing-count">
+                showing <strong>{totalResults ? movie?.length : 0}</strong> of{" "}
+                {totalResults ? totalResults : 0} Results
               </div>
             </div>
           </div>
