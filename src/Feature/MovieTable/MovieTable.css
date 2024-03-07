@@ -174,7 +174,10 @@
 
   .table td,
   .table th {
-    padding: 8px;
+    padding: 2px;
+    font-size: 12px;
+  }
+  .table tbody tr td {
     font-size: 12px;
   }
 }

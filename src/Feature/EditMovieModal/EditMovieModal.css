@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000; /* Ensure it's above other content */
+  z-index: 1000;
 }
 
 .modal-input {
@@ -30,7 +30,7 @@
   background: white;
   padding: 20px;
   border-radius: 5px;
-  width: 500px; /* Adjust as needed */
+  width: 500px;
 }
 
 .modal-actions {
@@ -50,14 +50,7 @@
 .modal-error {
   color: red;
 }
-/* .modal-close-button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-} */
 
-/* You might want to add some padding or margin to the close button for better appearance and clickability */
 .modal-close-button {
   padding: 0.5rem;
   margin: -0.5rem;
@@ -70,7 +63,6 @@
   cursor: pointer;
 }
 
-/* Optional: Style the close button on hover to give users feedback that it's clickable */
 .modal-close-button:hover {
   opacity: 0.8;
 }
