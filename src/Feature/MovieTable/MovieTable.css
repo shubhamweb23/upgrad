@@ -158,13 +158,17 @@
 .button-container {
   display: flex;
 }
+.no-data {
+  text-align: center !important;
+  height: 200px !important;
+}
 
 @media only screen and (max-width: 600px) {
   .search-box-container {
     flex-direction: column;
   }
   .button-container {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .table-heading,
   .search-heading,
@@ -182,6 +186,15 @@
     font-size: 12px;
   }
   .table-heading-container {
-    padding: 30px 0px;
+    padding: 10px 7px;
+  }
+  .table-container {
+    width: 90%;
+  }
+  .search-box-main-container {
+    width: 90%;
+  }
+  .sort-container {
+    margin-bottom: 20px;
   }
 }

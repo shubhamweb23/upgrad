@@ -129,24 +129,34 @@ const MovieTable = () => {
               </tr>
             </thead>
             <tbody>
-              {movie?.map((movie, index) => (
-                <tr key={movie.imdbID}>
-                  <td>{index + 1}</td>
-                  <td>{movie.Title}</td>
-                  <td>
-                    <img src={movie.Poster} alt={movie.Title} />
-                  </td>
-                  <td className="delete-button">
-                    <div onClick={() => handleDelete(movie.imdbID)}>delete</div>
-                  </td>
-                  <td>
-                    <TbEdit
-                      className="edit-button"
-                      onClick={() => handleEdit(movie)}
-                    />
+              {movie && movie.length > 0 ? (
+                movie?.map((movie, index) => (
+                  <tr key={movie.imdbID}>
+                    <td>{index + 1}</td>
+                    <td>{movie.Title}</td>
+                    <td>
+                      <img src={movie.Poster} alt={movie.Title} />
+                    </td>
+                    <td className="delete-button">
+                      <div onClick={() => handleDelete(movie.imdbID)}>
+                        delete
+                      </div>
+                    </td>
+                    <td>
+                      <TbEdit
+                        className="edit-button"
+                        onClick={() => handleEdit(movie)}
+                      />
+                    </td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="20" className="no-data">
+                    No data available
                   </td>
                 </tr>
-              ))}
+              )}
             </tbody>
           </table>
         </div>
