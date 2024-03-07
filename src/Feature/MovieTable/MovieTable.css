@@ -102,8 +102,9 @@
   min-height: 40px;
 }
 
-.button:hover {
-  background-color: #e2e2e2;
+.button:active {
+  position: relative;
+  top: 2px; /* Move the button down by 2px when clicked */
 }
 
 .sort-button {
