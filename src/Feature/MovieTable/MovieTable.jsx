@@ -84,12 +84,14 @@ const MovieTable = () => {
               />
               <FaSearch className="search-icon" />
             </div>
-            <button className="button" onClick={handleApply}>
-              Apply
-            </button>
-            <button className="button" onClick={handleClear}>
-              Clear
-            </button>
+            <div className="button-container">
+              <button className="button" onClick={handleApply}>
+                Apply
+              </button>
+              <button className="button" onClick={handleClear}>
+                Clear
+              </button>
+            </div>
           </div>
         </div>
       </div>

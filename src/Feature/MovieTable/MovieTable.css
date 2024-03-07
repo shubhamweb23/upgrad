@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   margin-top: "20px";
+  overflow-x: auto;
 }
 
 .table-container {
@@ -68,6 +69,7 @@
 .table-listing-count {
   padding-right: "10px";
   font-size: 20px;
+  letter-spacing: -2px;
 }
 
 .search-box input {
@@ -151,4 +153,28 @@
 .outer-box {
   display: flex;
   justify-content: center;
+}
+.button-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-box-container {
+    flex-direction: column;
+  }
+  .button-container {
+    margin-top: 20px;
+  }
+  .table-heading,
+  .search-heading,
+  .table-listing-count {
+    font-size: 14px;
+    letter-spacing: -1px;
+  }
+
+  .table td,
+  .table th {
+    padding: 8px;
+    font-size: 12px;
+  }
 }
