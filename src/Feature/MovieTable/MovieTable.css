@@ -104,7 +104,7 @@
 
 .button:active {
   position: relative;
-  top: 2px; /* Move the button down by 2px when clicked */
+  top: 2px;
 }
 
 .sort-button {
