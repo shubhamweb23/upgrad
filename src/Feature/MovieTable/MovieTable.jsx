@@ -73,7 +73,7 @@ const MovieTable = () => {
     <div>
       <div className="outer-box">
         <div className="search-box-main-container">
-          <div className="search-heading">filter list of the movie title</div>
+          <div className="search-heading">Search movie title</div>
           <div className="search-box-container">
             <div className="search-box">
               <input
